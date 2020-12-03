@@ -1,0 +1,13 @@
+.movie{
+    &__detail {
+        &-info {
+            background-color: #347f98b8;
+            padding: 20px 50px;
+
+            p {
+                margin: 0;
+                font-size: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+.popular {
+    margin-top: 60px;
+    padding: 20px 50px;
+
+    &__title {
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: capitalize;
+        letter-spacing: 0.8px;
+    }
+
+    &__grid {
+        margin-top: 40px;
+
+        &-title {
+            &-link {
+                font-size: 20px;
+                color: #777;
+                font-weight: 600;
+                margin-top: 8px;
+                display: block;
+
+                &:hover {
+                    text-decoration: none !important;
+                    color: #153b48d9;
+                }   
+            }
+        }
+
+        &-date {
+            font-size: 16px;
+            margin-top: 6px;
+            
+            span {
+                text-transform: capitalize;
+            }
+        }
+    }
+
+    &__loadmore {
+        p {
+            margin: 0;
+            background-color: #347f98b8;
+            text-align: center;
+            padding: 20px 0px;
+            font-size: 18px;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+    }
+}
